@@ -18,8 +18,8 @@ public class AdvancedDepInjectionSpringLauncher {
 
             System.out.println(context.getBean(BusinessCalculationService.class).findMax());
 
-//            Arrays.stream(context.getBeanDefinitionNames())
-//                    .forEach(System.out::println);
+            Arrays.stream(context.getBeanDefinitionNames())
+                    .forEach(System.out::println);
         }
     }
 }

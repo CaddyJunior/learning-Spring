@@ -3,10 +3,12 @@ package com.example.learn_spring_framework.examples.a2.business;
 import com.example.learn_spring_framework.examples.a2.service.DataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
 
-@Component
+//@Component
+@Service
 public class BusinessCalculationService {
 
     private DataService dataService;
